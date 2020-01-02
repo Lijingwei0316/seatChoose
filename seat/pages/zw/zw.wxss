@@ -1,0 +1,15 @@
+/* pages/zw/zw.wxss */
+picker{
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: blue;
+}
+
+.btnLayout{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin: 20px 0;
+  width: 100%;
+}

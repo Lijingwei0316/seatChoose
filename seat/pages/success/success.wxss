@@ -1,0 +1,15 @@
+/* pages/success/success.wxss */
+.success{
+  color: red;
+  font-size: 80rpx;
+  font-family: 宋体;
+  text-align: center;
+  font-weight: bold;
+}
+navigator{
+  display: flex;
+  color: green;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px; 
+}

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+   <image src="{{imgSrc}}" style="height:200rpx;width:697rpx;margin-left:60rpx;margin-top:80rpx;"></image>
+</view>
+<view class="button">
+  <button type="primary" bindtap="jumpPage">选座</button>
+</view>

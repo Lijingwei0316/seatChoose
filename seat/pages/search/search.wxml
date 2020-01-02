@@ -1,0 +1,8 @@
+<!--pages/search/search.wxml-->
+<view class="box"> 
+  <view class="title">选座查询</view> 
+    <view style="line-height:80px;font-size:17px;">你的座位是：{{seat}}</view>
+    <view style="line-height:80px;font-size:17px;">你预约的日期是：{{date}}</view>
+    <view style="line-height:80px;font-size:17px;">你预约的时段是：{{time}}</view>
+    <view style="line-height:80px;font-size:17px; color:red">违规次数：{{num}}</view>
+</view> 

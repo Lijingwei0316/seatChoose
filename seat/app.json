@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/zw/zw",
+    "pages/notice/notice",
+    "pages/success/success",
+    "pages/sheet/sheet",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "上海大学社区学院",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home-off.png",
+        "selectedIconPath": "/images/home-on.png"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "text": "选座须知",
+        "iconPath": "/images/kj-off.png",
+        "selectedIconPath": "/images/kj-on.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "选座查询",
+        "iconPath": "/images/search-off.png",
+        "selectedIconPath": "/images/search-on.png"
+      },
+      {
+        "pagePath": "pages/sheet/sheet",
+        "text": "座位表",
+        "iconPath": "/images/news-off.png",
+        "selectedIconPath": "/images/news-on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

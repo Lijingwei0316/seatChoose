@@ -1,0 +1,14 @@
+<!--pages/zw/zw.wxml-->
+<view class="box">
+  <view class="title">社区学院13幢4楼自习室</view>
+  <form bindsubmit="formSubmit1">
+      <picker bindchange="chooseTime2" value="{{index2}}" range="{{array2}}" name="time2">请选择预约日期：{{array2[index2]}}
+    </picker>
+    <picker bindchange="chooseTime1" value="{{index1}}" range="{{array1}}" name="time1">请选择预约时间：{{array1[index1]}}
+    </picker>
+    <view class="btnLayout">
+      <button type="primary" form-type="submit" style="margin:15px;">确定</button>
+      <button type="primary" bindtap="cancel" style="margin:15px;">取消</button>
+    </view>
+  </form>
+</view>

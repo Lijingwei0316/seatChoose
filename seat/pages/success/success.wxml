@@ -1,0 +1,6 @@
+<!--pages/success/success.wxml-->
+<view class="success">
+  <image src="{{imgSrc}}"></image>
+  <view>恭喜你预约成功</view>
+</view>
+  <navigator open-type="switchTab" url="/pages/search/search">点击查看你的座位</navigator>

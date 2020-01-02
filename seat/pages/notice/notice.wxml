@@ -1,0 +1,10 @@
+<!--pages/notice/notice.wxml-->
+<view class="box">
+  <view class="title">选座须知</view>
+  <view class="text">
+    <view>1.最多提前七天选座。</view>
+    <view>2.每人每天可选1次，1次2小时，注意合理安排时间。</view>
+    <view>3.请按时在门口刷卡签到进入自习室，未刷卡记入违规次数。</view>
+    <view>4.记满三次违规系统将禁止使用1周。</view>
+  </view>
+</view>

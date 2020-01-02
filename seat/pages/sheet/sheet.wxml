@@ -1,0 +1,4 @@
+<!--pages/sheet/sheet.wxml-->
+<view class="box">
+  <view class="title">座位表</view>
+</view>
